@@ -100,7 +100,7 @@ jQuery(document).ready(function ($) {
           {
             scrollTop: target.offset().top - top_space,
           },
-          1500,
+          1200,
           "easeInOutExpo"
         );
 
@@ -151,4 +151,24 @@ $(".slider").slick({
       },
     },
   ],
+});
+
+const sections = document.querySelectorAll("section");
+const navAll = document.querySelectorAll(".container nav ul li");
+
+window.addEventListener("scroll", function () {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionLength = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionLength - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+  navAll.forEach((li) => {
+    li.classList.remove("menu-active");
+    if (li.classList.contains(current)) {
+      li.classList.add("menu-active");
+    }
+  });
 });
