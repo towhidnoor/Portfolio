@@ -152,18 +152,13 @@ span {
   align-items: center;
   flex-direction: column;
 }
-#name .name-mid {
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 #name h1 {
-  margin: 12px 0 15px 0;
+  margin: 0px 0 15px 0;
   font-size: 6rem;
   font-weight: 700;
   line-height: 56px;
   font-family: "Philosopher", sans-serif;
-
   color: #54d7bb;
 }
 
@@ -175,7 +170,7 @@ span {
 }
 #name h2 {
   color: #838d8a;
-  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -207,7 +202,7 @@ span {
   #name h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    /* margin-bottom: 10px; */
   }
 }
 
@@ -268,7 +263,7 @@ span {
   font-size: 13px;
   letter-spacing: 1px;
   margin-top: 16rem;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-bottom: 5rem;
   padding: 7px 15px;
   transition: 0.5s;
