@@ -143,7 +143,7 @@ span {
 
 #name .name-container {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   top: 15;
   left: 0;
   right: 0;
@@ -231,9 +231,9 @@ span {
   padding-top: 5px;
 }
 
-#name .social-links {
+/* #name .social-links {
   padding: 20px 0;
-}
+} */
 
 #name .social-links a {
   width: 36px;
@@ -652,13 +652,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #skills .skills-block h4 {
   margin-bottom: 20px;
-  font-size: 17px;
+  font-size: 2vw;
 }
 
 /* Project Section
 --------------------------------*/
 #project {
-  border-bottom: #838d8a solid;
   height: 1000px;
 }
 #project h2 {
@@ -684,7 +683,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: 99;
+  /* z-index: 99; */
 }
 
 #project .project-block:hover {
