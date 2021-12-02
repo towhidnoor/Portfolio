@@ -1,323 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>Portfolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="" name="keywords" />
-  <meta content="" name="description" />
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon" />
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
-    rel="stylesheet" />
+    <!-- Bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Bootstrap css -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Libraries CSS Files -->
 
-  <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet" />
-</head>
+  <body>
+    <header id="header" class="header header-hide">
+      <div class="container">
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="name menu-active"><a href="#name">Home</a></li>
+            <li class="about-us"><a href="#about-us">About</a></li>
+            <li class="skills"><a href="#skills">Skills</a></li>
+            <li class="project"><a href="#project">Projects</a></li>
+            <li class="resume"><a href="">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <header id="header" class="header header-hide">
-    <div class="container">
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="name menu-active"><a href="#name">Home</a></li>
-          <li class="about-us"><a href="#about-us">About</a></li>
-          <li class="skills"><a href="#skills">Skills</a></li>
-          <li class="project"><a href="#project">Projects</a></li>
-          <li class="resume"><a href="">Resume</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!--==========================
+    <!--==========================
     Hero Section
   ============================-->
-  <section id="name" class="wow fadeIn">
-    <div class="name-container mb-10">
-      <div class="name-mid">
-        <h5 class="text-center">Hi, my name is</h5>
-        <h1>Towhidun Noor Azmi</h1>
-        <h2 class="text-center pt-2">I build things as a Web Developer</h2>
-        <div class="social-links text-center">
-          <a href="https://github.com/towhidnoor" target="blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/towhidnoor" target="blank" class="github"><i class="fa fa-github"></i></a>
-          <a href="https://www.instagram.com/towhid_06" target="blank" class="instagram"><i
-              class="fa fa-instagram"></i></a>
-          <a href="https://www.facebook.com/towhidun.azmi" class="facebook"><i class="fa fa-facebook"></i></a>
+    <section id="name" class="wow fadeIn">
+      <div class="name-container mb-10">
+        <div class="name-mid">
+          <h5 class="text-center">Hi, my name is</h5>
+          <h1>Towhidun Noor Azmi</h1>
+          <h2 class="text-center pt-3">I build things as a Web Developer</h2>
+          <div class="social-links text-center">
+            <a
+              href="https://github.com/towhidnoor"
+              target="blank"
+              class="linkedin"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/towhidnoor"
+              target="blank"
+              class="github"
+              ><i class="fa fa-github"></i
+            ></a>
+
+            <a href="https://www.facebook.com/towhidun.azmi" class="facebook"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+        <div class="mt-1 mb-2 p-5">
+          <a href="#about-us" class="btn-get-started scrollto"
+            ><i class="fa fa-angle-down"></i
+          ></a>
         </div>
       </div>
-      <div class="mt-1 mb-2 p-5">
-        <a href="#about-us" class="btn-get-started scrollto"><i class="fa fa-angle-down"></i></a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!--==========================
+    <!--==========================
     About Us Section
   ============================-->
-  <section id="about-us" class="padd-section wow fadeInUp">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-7 col-lg-7">
-          <div class="about-content">
-            <h2><span>A</span>bout me</h2>
-            <p>
-              Hi! My name is <span>Towhid</span>, a Front End Developer based
-              in Bangladesh. I express myself as
-              <span>passionate</span> developer who loves <span>coding</span>,
-              and everthing about the <span>web platform</span>.
-              <br />
-              Along the path, i have learned some interesting skills which has
-              given me the priveledge to show-case my design in the web. I
-              have an <span>open-mind</span> when it comes to learning
-              something new. I like putting myself into situation which
-              challenges my current limit.
-              <br />
-              I love <span>playing</span> and <span>gaming</span> whenever i
-              am free. My other hobby is watching anime since i am really
-              fascinated in Japanese culture.
-            </p>
-          </div>
-          <div class="info">
-            <div class="email">
-              <i class="fa fa-envelope"></i>
+    <section id="about-us" class="padd-section wow fadeInUp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 col-lg-7">
+            <div class="about-content">
+              <h2><span>A</span>bout me</h2>
+              <p>
+                Hi! My name is <span>Towhid</span>, a Front End Developer based
+                in Bangladesh. I express myself as
+                <span>passionate</span> developer who loves <span>coding</span>,
+                and everthing about the <span>web platform</span>.
+                <br />
+                Along the path, i have learned some interesting skills which has
+                given me the priveledge to show-case my design in the web. I
+                have an <span>open-mind</span> when it comes to learning
+                something new. I like putting myself into situation which
+                challenges my current limit.
+                <br />
+                I love <span>playing</span> and <span>gaming</span> whenever i
+                am free. My other hobby is watching anime since i am really
+                fascinated in Japanese culture.
+              </p>
             </div>
-            <div>
-              <p>tnailyrami@gmail.com</p>
+            <div class="info">
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div>
+                <p>tnailyrami@gmail.com</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-5 col-lg-5">
-          <img src="img//project-background/towhid.jpg" alt="About" />
+          <div class="col-md-5 col-lg-5">
+            <img src="img//project-background/towhid.jpg" alt="About" />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--==========================
+    <!--==========================
     Skills Section
   ============================-->
 
-  <section id="skills" class="padd-section text-center wow fadeInUp">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Skill<span>s</span></h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4>HTML</h4>
-            <img src="img/logos/html.png" alt="img" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4>CSS</h4>
-            <img src="img/logos/css.png" alt="img" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4 class="text-center">JavaScript</h4>
-            <img src="img/logos/javascript.png" alt="img" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4>Sass</h4>
-            <img src="img/logos/sass.png" alt="img" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4>Bootstrap</h4>
-            <img src="img/logos/bootstrap.png" alt="img" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-sm-6 col-6">
-          <div class="skills-block">
-            <h4>Figma</h4>
-            <img src="img/logos/figma.png" alt="img" class="img-fluid" />
-          </div>
+    <section id="skills" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Skill<span>s</span></h2>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!--==========================
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4>HTML</h4>
+              <img src="img/logos/html.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4>CSS</h4>
+              <img src="img/logos/css.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4 class="text-center">JavaScript</h4>
+              <img src="img/logos/javascript.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4>Sass</h4>
+              <img src="img/logos/sass.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4>Bootstrap</h4>
+              <img src="img/logos/bootstrap.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-6">
+            <div class="skills-block">
+              <h4>Figma</h4>
+              <img src="img/logos/figma.png" alt="img" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
   Project Section
   ============================-->
 
-  <section id="project" class="padd-section text-center wow fadeInUp">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Projects</h2>
+    <section id="project" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2><span>P</span>rojects</h2>
+        </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-sm-12 col-12">
-          <div class="project-block bottom">
-            <div class="img-box">
-              <img src="/img/project-background/guess.jpg" alt="" />
-            </div>
-            <div class="project-content">
-              <h6>Guess the Correct Number ?!</h6>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://towhidnoor.github.io/Guess-/" target="_blank"><i class="fa fa-external-link"></i></a>
-                </li>
-                <li>
-                  <a href="https://github.com/towhidnoor/Guess-" target="_blank"><i class="fa fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 col-12">
-          <div class="project-block bottom">
-            <div class="img-box">
-              <img src="/img/project-background/dice.jpg" alt="" />
-            </div>
-            <div class="project-content">
-              <h6>Roll the Dice</h6>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://towhidnoor.github.io/Dice/" target="_blank"><i class="fa fa-external-link"></i></a>
-                </li>
-                <li>
-                  <a href="https://github.com/towhidnoor/Dice" target="_blank"><i class="fa fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 col-12">
-          <div class="project-block bottom">
-            <div class="project-info">
-              <h4>Banker-Account</h4>
-            </div>
-            <div class="project-para">
-              <p>
-                A banking application strictly build on JavaScript which shows
-                the transactions and allow transfer of money between accounts made using javascript/html/css
-              </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
               <div class="img-box">
-                <img src="/img/project-background/Banker-account.jpg" alt="" />
+                <img src="/img/project-background/guess.jpg" alt="" />
               </div>
               <div class="project-content">
-                <h6>Banker Web Application</h6>
+                <h6>Guess the Correct Number ?!</h6>
                 <ul class="list-unstyled">
                   <li>
-                    <a href="https://towhidnoor.github.io/Banker-account/" target="_blank"><i
-                        class="fa fa-external-link"></i></a>
+                    <a
+                      href="https://towhidnoor.github.io/Guess-/"
+                      target="_blank"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="https://github.com/towhidnoor/Banker-account" target="_blank"><i
-                        class="fa fa-github"></i></a>
+                    <a
+                      href="https://github.com/towhidnoor/Guess-"
+                      target="_blank"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
+              <div class="img-box">
+                <img src="/img/project-background/dice.jpg" alt="" />
+              </div>
+              <div class="project-content">
+                <h6>Roll the Dice</h6>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="https://towhidnoor.github.io/Dice/" target="_blank"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/towhidnoor/Dice" target="_blank"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
+              <div class="project-info">
+                <h4>Banker-Account</h4>
+              </div>
+              <div class="project-para">
+                <p>
+                  A banking application strictly build on JavaScript which shows
+                  the transactions and allow transfer of money between accounts
+                  made using javascript/html/css
+                </p>
+                <div class="img-box">
+                  <img
+                    src="/img/project-background/Banker-account.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="project-content">
+                  <h6>Banker Web Application</h6>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        href="https://towhidnoor.github.io/Banker-account/"
+                        target="_blank"
+                        ><i class="fa fa-external-link"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/towhidnoor/Banker-account"
+                        target="_blank"
+                        ><i class="fa fa-github"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-100"></div> -->
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
+              <div class="img-box">
+                <img src="/img/project-background/banker.jpg" alt="" />
+              </div>
+
+              <div class="project-content">
+                <h6>A Bankist website</h6>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://towhidnoor.github.io/Bankist-Website/"
+                      target="_blank"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/towhidnoor/Bankist-Website"
+                      target="_blank"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
+              <div class="img-box">
+                <img src="/img/project-background/Track.jpg" alt="" />
+              </div>
+              <div class="project-content">
+                <h6>Geolocation Tracking Application</h6>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://towhidnoor.github.io/Track/"
+                      target="_blank"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/towhidnoor/Track"
+                      target="_blank"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-12 col-12">
+            <div class="project-block bottom">
+              <div class="img-box">
+                <img src="/img/project-background/recipe.jpg" alt="" />
+              </div>
+              <div class="project-content">
+                <h6>Searching/Adding custom recipe</h6>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://peaceful-hugle-93c964.netlify.app/"
+                      target="_blank"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/towhidnoor/Recipe"
+                      target="_blank"
+                      ><i class="fa fa-github"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <!-- <div class="w-100"></div> -->
-        <div class="col-md-6 col-lg-4 col-sm-12 col-12">
-          <div class="project-block bottom">
-            <div class="img-box">
-              <img src="/img/project-background/banker.jpg" alt="" />
-            </div>
-
-            <div class="project-content">
-              <h6>A Bankist website</h6>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://towhidnoor.github.io/Bank/" target="_blank"
-                    ><i class="fa fa-external-link"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://github.com/towhidnoor/Bank" target="_blank"
-                    ><i class="fa fa-github"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 col-12">
-          <div class="project-block bottom">
-            <div class="img-box">
-              <img src="/img/project-background/Track.jpg" alt="" />
-            </div>
-            <div class="project-content">
-              <h6>Geolocation Tracking Application</h6>
-              <ul class="list-unstyled">
-                <li>
-                  <a
-                    href="https://towhidnoor.github.io/Track/"
-                    target="_blank"
-                    ><i class="fa fa-external-link"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/towhidnoor/Track"
-                    target="_blank"
-                    ><i class="fa fa-github"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up bottom-icon"></i></a>
+    <a href="#" class="back-to-top"
+      ><i class="fa fa-chevron-up bottom-icon"></i
+    ></a>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-</body>
-
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
