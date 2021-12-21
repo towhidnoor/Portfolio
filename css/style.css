@@ -19,7 +19,7 @@ h2 {
 
 h4 {
   color: #454b49;
-  font-size: 25px;
+  font-size: 15vw;
   font-weight: 900;
   letter-spacing: 2px;
   line-height: 2;
@@ -196,17 +196,30 @@ span {
   }
 }
 
+@media (max-width: 470px) {
+  #name h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #name .name-container {
+    top: 100px;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
 @media (max-width: 1000px) {
   #name h1 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 24px;
     margin-bottom: 25px;
   }
+
 }
 
 @media (max-width: 490px) {
   #name h1 {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 24px;
     margin-bottom: 25px;
   }
@@ -663,14 +676,19 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #skills .skills-block h4 {
   margin-bottom: 20px;
-  font-size: 1vw;
+  font-size: 2vw;
 }
+@media (max-width: 500px) {
+  #skills .skills-block h4 {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 990px) {
   #skills .skills-block h4 {
     font-size: 15px;
   }
 }
-
 /* Project Section
 --------------------------------*/
 #project {
